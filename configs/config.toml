@@ -1,0 +1,14 @@
+log_level = "debug"
+apiserver_port = ":12000"
+env = "development"  # production
+filename_with_domains = "domains.txt"
+redis_url = "localhost:6379"
+timeout_between_checks_in_seconds = 15
+timeout_between_http_checks_in_seconds = 15
+downtime_without_alerts_in_seconds = 60
+working_hours_start = 7
+working_hours_end = 20
+send_to_chat = false
+elastic_domain = ""
+elastic_username = ""
+elastic_password = ""
